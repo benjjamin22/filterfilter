@@ -1,0 +1,105 @@
+.body {
+    background-color: #f8f9fd;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 330px;
+}
+
+.title {
+    font-size: 35px;
+    font-family: sans-serif;
+    margin-right: 40%;
+    margin-bottom: -3%;
+    line-height: 135%;
+}
+
+.subtitle {
+    display: inline-block;
+    margin: 0px 0 0px;
+    opacity: 0.8;
+}
+
+.header {
+    background-color: #3e57db;
+    color: #fff;
+    padding: 15px 20px;
+    margin-bottom: 0%;
+}
+
+.header input {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 0;
+    border-radius: px;
+    color: #fff;
+    font-size: 13px;
+    padding: 15px 15px;
+    width: 100%;
+}
+
+.header input:focus {
+    outline: none;
+}
+
+.userlist {
+    background-color: black;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 3%;
+    padding-left: 5%;
+    max-height: 490px;
+    overflow-y: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.li {
+    display: flex;
+    margin-left: 25px;
+}
+
+.userlist .user_info {
+    margin-left: 50px;
+    margin-top: -16%;
+    margin-bottom: 3%;
+}
+
+.userlist img {
+    border-radius: 25%;
+    object-fit: cover;
+    height: 50px;
+    width: 45px;
+}
+
+.userlist.user_info h3 {
+    font-size: 16px;
+    margin: 4px;
+}
+
+.userlist.user_info p {
+    margin-bottom: -9px;
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+.userlist.user_info p1 {
+    font-size: 11px;
+    margin-top: 10px;
+}
+
+.userlist li :not(:last-of-type) {
+    border-bottom: 3px solid #eee;
+}
+
+.userlist li.hide {
+    display: none;
+}
